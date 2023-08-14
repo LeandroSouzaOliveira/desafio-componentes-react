@@ -1,7 +1,11 @@
 export default function App() {
   return (
     <>
-      <h1>Teste</h1>
+      <header>
+        <nav>
+          <h1>DSCarrosTop</h1>
+        </nav>
+      </header>
     </>
   )
 }
