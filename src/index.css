@@ -8,14 +8,14 @@
   --dsct-color-section-cars-border: #3c9af0;
   --dsct-color-section-cars-description: #5e5e5e;
 
-  --dsct-color-section-comments-bg: #C8C8C8;
-  --dsct-color-section-comments-title: #5E5E5E;
-  --dsct-color-section-comments-comment: #3C9AF0;
+  --dsct-color-section-comments-bg: #c8c8c8;
+  --dsct-color-section-comments-title: #5e5e5e;
+  --dsct-color-section-comments-comment: #3c9af0;
 
-  --dsct-color-section-comments-bg-card: #FFFFFF;
+  --dsct-color-section-comments-bg-card: #ffffff;
   --dsct-color-section-comments-card-border: #3c9af0;
 
-  --dsct-color-footer-bg: #3C9AF0;
+  --dsct-color-footer-bg: #3c9af0;
   --dsct-color-footer-font: #ffffff;
 }
 
@@ -30,4 +30,10 @@ a,
 a:hover {
   color: unset;
   text-decoration: none;
+}
+
+.dsct-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
