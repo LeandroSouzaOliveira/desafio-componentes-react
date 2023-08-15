@@ -1,0 +1,31 @@
+#cars {
+  background-color: var(--dsct-color-section-cars-bg);
+  padding: 0 20px 0 20px;
+}
+
+.dsct-card-description {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--dsct-color-section-cars-border);
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dsct-card-description img {
+  width: 260px;
+  padding: 10px;
+}
+
+.dsct-card-description p {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dsct-color-section-cars-description);
+}
+
+.dsct-mgbottom {
+  margin-bottom: 20px;
+}

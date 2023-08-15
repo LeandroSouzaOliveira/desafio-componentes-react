@@ -1,0 +1,6 @@
+.dsct-section-card-title h2 {
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--dsct-color-section-cars-description);
+}

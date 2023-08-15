@@ -1,9 +1,9 @@
-import Header from "./component/Header";
+import ProductDetailsCommets from "./routes/ProductDetailsCommets";
 
 export default function App() {
   return (
     <>
-      <Header />
+      <ProductDetailsCommets />
     </>
-  )
+  );
 }
