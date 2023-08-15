@@ -5,6 +5,7 @@
 
 .dsct-card-description {
   width: 100%;
+  max-width: 1200px;
   border-radius: 10px;
   border: 1px solid var(--dsct-color-section-cars-border);
   padding: 0 20px;
@@ -24,4 +25,10 @@
   font-size: 16px;
   font-weight: 700;
   color: var(--dsct-color-section-cars-description);
+}
+
+@media (min-width: 1200px) {
+  #cars {
+    padding: 0 227px;
+  }
 }

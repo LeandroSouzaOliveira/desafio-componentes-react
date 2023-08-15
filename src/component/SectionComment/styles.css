@@ -10,7 +10,7 @@
 
 .dsct-card-comment {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   border-radius: 12px;
   border: 1px solid var(--dsct-color-section-comments-border);
   padding: 25px 20px;
@@ -22,4 +22,10 @@
 
 .dsct-card-comment p {
     color: var(--dsct-color-section-comments-font);
+}
+
+@media (min-width: 992px) {
+  #cars-comment {
+    padding: 0 120px;
+  }
 }

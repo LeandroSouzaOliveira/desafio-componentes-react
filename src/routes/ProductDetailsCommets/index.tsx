@@ -2,7 +2,7 @@ import "./styles.css";
 import Header from "../../component/Header";
 import SectionCar from "../../component/SectionCar";
 import SectionComment from "../../component/SectionComment";
-import Footer from "../../component/Footer/indes";
+import Footer from "../../component/Footer";
 
 export default function ProductDetailsCommets() {
   return (

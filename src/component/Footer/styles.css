@@ -1,7 +1,12 @@
-.dsct-footer {
+footer {
   width: 100%;
   height: 120px;
   background-color: var(--dsct-color-footer-bg);
+  color: var(--dsct-color-footer-font);
+}
+
+.dsct-footer-items {
+  padding-top: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,13 +14,20 @@
   text-align: center;
 }
 
-.dsct-footer a,
+.dsct-footer-items a,
 address {
   font-size: 16px;
-  color: var(--dsct-color-footer-font);
 }
 
-.dsct-footer a {
+.dsct-footer-items a {
   padding-bottom: 10px;
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .dsct-footer-items {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
 }
