@@ -10,8 +10,10 @@
   --dsct-color-section-cars-description: #5e5e5e;
 
   --dsct-color-section-comments-bg: #c8c8c8;
+  --dsct-color-section-comments-card-bg: #ffffff;
   --dsct-color-section-comments-title: #5e5e5e;
-  --dsct-color-section-comments-comment: #3c9af0;
+  --dsct-color-section-comments-font: #3c9af0;
+  --dsct-color-section-comments-border: #3c9af0;
 
   --dsct-color-section-comments-bg-card: #ffffff;
   --dsct-color-section-comments-card-border: #3c9af0;
